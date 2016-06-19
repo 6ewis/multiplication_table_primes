@@ -1,4 +1,4 @@
-require_relative './multiplication_table_primes/table'
+require_relative './lib/multiplication_table_primes/table'
 
 class PrimeTable < Thor
   desc "multiply", "Output a symmetric two-dimensional multiplication table of the first N numbers (10 by default)"
