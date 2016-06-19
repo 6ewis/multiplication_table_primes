@@ -13,7 +13,7 @@ A program that prints out a multiplication table of the first N prime numbers.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/multiplication_table_primes.
+Bug reports and pull requests are welcome on GitHub at https://github.com/6ewis/multiplication_table_primes.
 
 
 ## License
