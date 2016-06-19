@@ -13,10 +13,10 @@ class Table
      #Adding the first row and the first column to the table
      index = 0
      rows = Prime.multiplication_table_primes(@size_of_primes_number).map do |item|
-       item.unshift(first_column[index])
+       new_item = [first_column[index],*item]
        index += 1
-       item
-     end.unshift(first_row.unshift(nil)) #We also make sure that the very first is empty since 1 is not a prime number
+       new_item
+     end.unshift([nil] + first_row) #We also make sure that the very first cell is empty since 1 is not a prime number
 
     table = Terminal::Table.new(title: "Multiplication Of Prime numbers",
                                 rows: rows)
