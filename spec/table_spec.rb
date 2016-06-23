@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../lib/table'
+require_relative '../lib/multiplication_table_primes/table'
 
 describe Table do
   def capture_output

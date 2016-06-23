@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../lib/prime'
+require_relative '../lib/multiplication_table_primes/prime'
 
 describe Prime do
   it '#sieve returns the N-th first primes number' do
